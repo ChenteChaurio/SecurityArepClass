@@ -1,0 +1,68 @@
+:root {
+  --spacing: 16px;
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f7f9;
+  color: #1d1d1f;
+}
+
+.container {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 0 var(--spacing);
+}
+
+h1 {
+  margin: 0 0 8px;
+}
+
+.description {
+  margin: 0 0 24px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e8eb;
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 12px;
+  padding: 12px;
+  background: #f2f4f6;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

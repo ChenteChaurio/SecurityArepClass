@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.mycompany.springsecure.Springsecure</exec.mainClass>
+        <exec.mainClass>com.mycompany.springsecure.Secureweb</exec.mainClass>
     </properties>
     <dependencies>
         <dependency>
@@ -17,5 +17,36 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.3.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+            <version>3.3.3</version>
+        </dependency>
     </dependencies>
+    <build>
+    <plugins>
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.0.1</version>
+    <executions>
+    <execution>
+    <id>copy-dependencies</id>
+    <phase>package</phase>
+    <goals><goal>copy-dependencies</goal></goals>
+    </execution>
+    </executions>
+    </plugin>
+    </plugins>
+    </build>
 </project>

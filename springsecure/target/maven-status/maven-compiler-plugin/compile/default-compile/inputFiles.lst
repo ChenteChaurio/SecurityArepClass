@@ -1,3 +1,13 @@
-C:\Users\vicente.garzon-r\Documents\NetBeansProjects\springsecure\src\main\java\com\mycompany\springsecure\HelloController.java
-C:\Users\vicente.garzon-r\Documents\NetBeansProjects\springsecure\src\main\java\com\mycompany\springsecure\Secureweb.java
-C:\Users\vicente.garzon-r\Documents\NetBeansProjects\springsecure\src\main\java\com\mycompany\springsecure\Springsecure.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\auth\AuthController.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\auth\AuthResponse.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\auth\AuthService.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\auth\LoginRequest.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\auth\RegisterRequest.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\config\GlobalExceptionHandler.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\config\SecurityConfig.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\HelloController.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\model\UserDocument.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\repository\UserRepository.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\SecureController.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\Secureweb.java
+C:\Users\User\Desktop\AREP\SecurityArepClass\springsecure\src\main\java\com\mycompany\springsecure\Springsecure.java

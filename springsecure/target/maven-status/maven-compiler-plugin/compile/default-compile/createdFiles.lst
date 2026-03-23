@@ -1,3 +1,13 @@
-com\mycompany\springsecure\HelloController.class
+com\mycompany\springsecure\repository\UserRepository.class
+com\mycompany\springsecure\auth\RegisterRequest.class
+com\mycompany\springsecure\config\SecurityConfig.class
+com\mycompany\springsecure\auth\AuthService.class
+com\mycompany\springsecure\auth\LoginRequest.class
+com\mycompany\springsecure\config\GlobalExceptionHandler.class
+com\mycompany\springsecure\auth\AuthResponse.class
 com\mycompany\springsecure\Springsecure.class
+com\mycompany\springsecure\model\UserDocument.class
+com\mycompany\springsecure\SecureController.class
 com\mycompany\springsecure\Secureweb.class
+com\mycompany\springsecure\auth\AuthController.class
+com\mycompany\springsecure\HelloController.class
